@@ -1,3 +1,4 @@
+/home/ubuntu/projects/deploy_django
 1. Install the following Updates
     sudo apt-get update
     sudo apt-get upgrade
@@ -28,7 +29,7 @@
 6. create an env file for your terminal and gunicorn
 
 7. set up Gunicorn by doing the following
-
+    /home/ubuntu/projects/Cloud_Practice/my_api_configuration
     - cd into /etc/systemd/system/
     - sudo nano gunicorn.socket and update accordingly
     - sudo nano gunicorn.service and update accordingly
